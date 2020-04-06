@@ -51,7 +51,9 @@ setTimeout(function(){
 ## Part 1
 In the above code 1st part is PHP code which checks what parameter is passed and according to that it loads the page.
 
-For Ex. this source code page is accessed by passing the source parameter.(http://crossintheroof-01.play.midnightsunctf.se:3000/?source)
+For Ex. this source code page is accessed by passing the source parameter.
+
+(http://crossintheroof-01.play.midnightsunctf.se:3000/?source)
 
 And it also removes harmful characters. 
 
