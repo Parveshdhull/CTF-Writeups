@@ -36,6 +36,6 @@ Similarly for users name I just changed users in url and in pattern and then sav
 
 So after saving all names of users and teams I searched pattern WPI{...}
 
-And I found **WPI{y000h}** in users.txt but unfortunately this was not flag.
+And I found *WPI{y000h}* in users.txt but unfortunately this was not flag.
 
-Then I found WPI{the_best_teams_make_the_flags} in teams.txt and this was correct flag.
+Then I found **WPI{the_best_teams_make_the_flags}** in teams.txt and this was correct flag.
