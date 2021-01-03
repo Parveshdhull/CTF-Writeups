@@ -75,6 +75,7 @@ So I braked problem in parts and solved like this:-
 #### 1. Payload Delivery
 
 Roll parameter was too small for payload, So I used HTTP headers for delivering payload
+
 ```User-Agent: eval(system('cat fl4g_here_but_can_you_get_it_hohoho.php'))```
 
 Here, I am reading flag file using cat. cat is called by system function. And system function is string which is parsed as php code by eval.
