@@ -97,7 +97,7 @@ So now we have our payload ready. We can execute php code in above string using 
 
 #### 3. Final step
 Our php code in above string also has other stuff and when eval will try to execute it will crash. So we should comment out that. How?
-I created two more custom headers, where first one is on top of all header and had starting of php comment /* and last header I included had ending of php comment. And I changed payload to closed opened comment on start and close on end. So final request become like this
+I created two more custom headers, where first one is on top of all header and had starting of php comment /* and last header I included had ending of php comment. And I changed payload to close opened comment on start and close on end. So final request become like this
 
 ```
 GET /?roll=(eval(implode(getallheaders()))) HTTP/1.1
