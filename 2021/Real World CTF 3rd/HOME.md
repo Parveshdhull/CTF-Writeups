@@ -16,4 +16,4 @@ from pwn import *
 io = remote('home.realworldctf.com', 1337)
 io.interactive()
 ```
-[Flag](/files/home_flag.mkv)
+[Flag](files/home_flag.mkv)
