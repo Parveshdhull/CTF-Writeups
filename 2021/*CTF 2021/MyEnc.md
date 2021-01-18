@@ -8,7 +8,7 @@ Same exploit file does that
 
 #### Step 3
 Decode time taken into bits, and then into ascii values(flag)
-`ptyhon rev.py`
+`python rev.py`
 
 ### exploit.py
 
